@@ -1,7 +1,7 @@
 import json
 import urllib.request
 
-FASTAPI_URL = "https://abcd1234.ngrok-free.app/predict"  # ← Colab で控えた URL
+FASTAPI_URL = "https://a8a1-34-125-51-156.ngrok-free.app/docs"  # ← Colab で控えた URL
 
 def call_fastapi(message, conversation_history):
     payload = json.dumps({
